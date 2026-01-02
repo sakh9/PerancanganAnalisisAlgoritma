@@ -11,6 +11,6 @@ def climbStairs(n):
         print(f)
     return f[n]
 
-# contoh penggunaan
+# input
 n = int(input("Masukkan jumlah tangga: "))   
 print("Jumlah cara untuk mendaki", n, "tangga adalah:", climbStairs(n))
